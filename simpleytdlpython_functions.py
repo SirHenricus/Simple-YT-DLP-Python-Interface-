@@ -124,27 +124,27 @@ if __name__ == "__main__":
     """))
 
     if alpha == 1:
-      print("Singular Video Download Selected!")
-      urlin = input("Enter the YouTube Video URL: ")
-    download_video(urlin)
-      print("Download Done!")
+     print("Singular Video Download Selected!")
+     urlin = input("Enter the YouTube Video URL: ")
+     download_video(urlin)
+     print("Download Done!")
     if alpha == 2:
       print("Singular Video With Metadata Download Selected!")
       urlin = input("Enter the YouTube Video URL: ")
-    download_video_with_metadata(urlin)
+      download_video_with_metadata(urlin)
       print("Download Done!")
     if alpha == 3:
       print("Singular Video With Audio Only Download Selected!")
       urlin = input("Enter the YouTube Video URL: ")
-    download_audio_from_video(urlin)
+      download_audio_from_video(urlin)
       print("Download Done!")
     if alpha == 4:
       print("Playlist Videos Download Selected!")
       urlin = input("Enter the YouTube Playlist URL: ")
-    download_playlist(urlin)
+      download_playlist(urlin)
       print("Download Done!")
     if alpha == 5:
       print("Channel Videos Download Selected!")
       urlin = input("Enter the YouTube Channel URL: ")
-    download_channels(urlin)
+      download_channels(urlin)
       print("Download Done!")
